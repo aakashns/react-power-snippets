@@ -1,1 +1,168 @@
-{}
+{
+  "Import React": {
+    "prefix": "imr",
+    "body": ["import React from \"react\";"],
+    "description": "Import react"
+  },
+
+  "Import React & Component": {
+    "prefix": "imrc",
+    "body": ["import React, { Component } from \"react\";"],
+    "description": "Import React & Component"
+  },
+
+  "Import React & PureComponent": {
+    "prefix": "imrpc",
+    "body": ["import React, { PureComponent } from \"react\";"],
+    "description": "Import React & PureComponent"
+  },
+
+  "ES6 named imports": {
+    "prefix": "imn",
+    "body": "import { $2 } from \"$1\";",
+    "description": "ES6 named import optimized for Intellisense"
+  },
+
+  "ES6 default import": {
+    "prefix": "imd",
+    "body": "import $1 from \"$2\";",
+    "description": "ES6 default import"
+  },
+
+  "ES6 default import (reverse)": {
+    "prefix": "imdn",
+    "body": "import ${2:Item} from \"$1\";",
+    "description":
+      "ES6 default import (in reverse order for easy tab completion)"
+  },
+
+  "ES6 named export": {
+    "prefix": "ec",
+    "body": "export const $1 = $0;",
+    "description": "Named export "
+  },
+
+  "ES6 default export": {
+    "prefix": "ed",
+    "body": "export default $1;",
+    "description": "ES6 default export"
+  },
+
+  "Console log": {
+    "prefix": "log",
+    "body": "console.log($1);",
+    "description": "Console log"
+  },
+
+  "Stateless Component": {
+    "prefix": "sl",
+    "body": ["const $1 = () => (", "\t$2", ");", "", "export default $1;"]
+  },
+
+  "Stateless Component Return": {
+    "prefix": "slr",
+    "body": [
+      "const $1 = () => {",
+      "\treturn (",
+      "\t\t$2",
+      "\t);",
+      "}",
+      "",
+      "export default $1;"
+    ]
+  },
+
+  "Export default Component Class": {
+    "prefix": "edccs",
+    "body": [
+      "export default class $1 extends Component {",
+      "\tstate = { $2 }",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t$3",
+      "\t\t);",
+      "\t}",
+      "}"
+    ]
+  },
+
+  "Component Class": {
+    "prefix": "ccs",
+    "body": [
+      "class $1 extends Component {",
+      "\tstate = { $2 }",
+      "\trender() {",
+      "\t\treturn (",
+      "\t\t\t$3",
+      "\t\t);",
+      "\t}",
+      "}",
+      "",
+      "export default $1;"
+    ]
+  },
+
+  "React Native stylesheet": {
+    "prefix": "ss",
+    "body": ["const styles = StyleSheet.create({", "  $0", "});"]
+  },
+
+  "React Native stylesheet (with container)": {
+    "prefix": "ssc",
+    "body": [
+      "const styles = StyleSheet.create({",
+      "  container: {",
+      "    $0",
+      "  }",
+      "});"
+    ]
+  },
+
+  "Import local component": {
+    "prefix": "imc",
+    "body": "import $1 from \"../components/$1\";"
+  },
+
+  "Import local container": {
+    "prefix": "imcon",
+    "body": "import $1 from \"../containers/$1\";"
+  },
+
+  "Import selectors": {
+    "prefix": "ims",
+    "body": "import { $2 } from \"../reducers$1\";"
+  },
+
+  "Import utility methods": {
+    "prefix": "imu",
+    "body": "import { $2 } from \"../util$1\";"
+  },
+
+  "Import wrapper (higher order component)": {
+    "prefix": "imw",
+    "body": "import { $1 } from \"../wrappers\";"
+  },
+
+  "Apply style to component": {
+    "prefix": "sst",
+    "body": "style={styles.$1}"
+  },
+
+  "Container boilerplate": {
+    "prefix": "container",
+    "body": [
+      "import { connect } from 'react-redux';",
+      "import $1 from '../components/$1';",
+      "$0",
+      "const stateToProps = state => ({",
+      "",
+      "});",
+      "",
+      "const actionCreators = {",
+      "",
+      "};",
+      "",
+      "export default connect(stateToProps,actionCreators)($1);"
+    ]
+  }
+}
