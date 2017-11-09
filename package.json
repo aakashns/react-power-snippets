@@ -1,0 +1,21 @@
+{
+    "name": "react-power-snippets",
+    "displayName": "React+Redux Snippets",
+    "description": "Snippets for React+Redux power users",
+    "version": "0.0.1",
+    "publisher": "aakashns",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
