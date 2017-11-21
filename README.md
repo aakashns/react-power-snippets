@@ -40,10 +40,6 @@ To enable code completion for filenames and `npm` modules, add the following to 
 
 <img src="https://i.imgur.com/P8OlCWG.gif" width="500px">
 
-### `ec` : ES6 named export
-
-<img src="https://i.imgur.com/P8OlCWG.gif" width="500px">
-
 ### `log` : Console log
 
 <img src="https://i.imgur.com/mW8SRNx.gif" width="500px">
