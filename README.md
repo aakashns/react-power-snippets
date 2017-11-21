@@ -1,5 +1,7 @@
 # React+Redux Code Snippets
 
+Install here: https://marketplace.visualstudio.com/items?itemName=aakashns.react-power-snippets
+
 Snippets for React+Redux power users. Designed to take maximum advantage of Javascript Intellisense (code-completion). 
 
 <img src="https://i.imgur.com/zfqObyD.gif" width="500px">
