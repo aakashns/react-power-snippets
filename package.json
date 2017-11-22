@@ -2,7 +2,7 @@
     "name": "react-power-snippets",
     "displayName": "React+Redux Snippets",
     "description": "Snippets for React+Redux power users",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "publisher": "aakashns",
     "engines": {
         "vscode": "^1.18.0"
